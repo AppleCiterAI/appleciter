@@ -1,0 +1,30 @@
+# AppleCiter
+
+A school-safe AI chatbot for finding trustworthy academic sources (.edu, .gov) using APIs like arXiv.
+
+## Try It Out
+Use AppleCiter at: [https://appleciterchatbot.onrender.com](https://appleciterchatbot.onrender.com)
+
+## Features
+- Queries academic sources safely.
+- Filters inappropriate content for student use.
+- Deployed on Render, embeddable in websites like Wix or GitHub Pages.
+
+## Preview
+![AppleCiter Preview](path/to/screenshot.png)
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AppleCiter Chatbot</title>
+    <style>
+        body { font-family: Arial, sans-serif; text-align: center; margin: 20px; }
+        iframe { border: none; width: 100%; max-width: 800px; height: 600px; }
+        @media (max-width: 600px) { iframe { height: 400px; } }
+    </style>
+</head>
+<body>
+    <h1>AppleCiter: Academic Source Finder</h1>
+    <p>Use the chatbot below to find trustworthy academic sources.</p>
+    <iframe src="https://appleciterchatbot.onrender.com" title="AppleCiter Chatbot"></iframe>
+</body>
+</html>

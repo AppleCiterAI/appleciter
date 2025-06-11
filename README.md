@@ -54,3 +54,11 @@ if __name__ == '__main__':
     <iframe src="https://appleciterchatbot.onrender.com" title="AppleCiter Chatbot"></iframe>
 </body>
 </html>
+services:
+  - type: web
+    name: appleciter
+    env: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: gunicorn app:app
+    autoDeploy: false
